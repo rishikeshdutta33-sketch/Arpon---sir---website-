@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>অর্পণ স্যার | শিক্ষা কেন্দ্র</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8ed;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #8b0000, #c58b00);
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background: white;
+      color: #8b0000;
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 25px auto;
+      padding: 0 15px;
+    }
+
+    .title {
+      text-align: center;
+      color: #8b0000;
+      margin-bottom: 18px;
+      font-size: 26px;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      border-top: 4px solid #c58b00;
+    }
+
+    .card h3 {
+      color: #8b0000;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      line-height: 1.7;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .btn {
+      text-decoration: none;
+      color: white;
+      background: #8b0000;
+      padding: 10px 15px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .btn.map {
+      background: #c58b00;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">LOGO</div>
+
+    <h1>অর্পণ স্যার</h1>
+    <p>শিক্ষা ও গাইডেন্স</p>
+  </header>
+
+  <section>
+    <h2 class="title">আমাদের ক্লাস ও বিষয়</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>Class 6</h3>
+        <p>বাংলা<br>ইতিহাস<br>ভূগোল</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 7</h3>
+        <p>বাংলা<br>সংস্কৃত<br>ইতিহাস<br>ভূগোল</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 8</h3>
+        <p>বাংলা<br>সংস্কৃত<br>ইতিহাস<br>ভূগোল</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 9</h3>
+        <p>বাংলা<br>ইতিহাস<br>ভূগোল</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 10</h3>
+        <p>বাংলা<br>ইতিহাস<br>ভূগোল</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 11</h3>
+        <p>বিষয় শিক্ষক/Admin দ্বারা নির্ধারিত হবে।</p>
+      </div>
+
+      <div class="card">
+        <h3>Class 12</h3>
+        <p>বিষয় শিক্ষক/Admin দ্বারা নির্ধারিত হবে।</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Batch Details</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>Batch Information</h3>
+        <p>
+          দিন: পরে নির্ধারণ করা হবে<br>
+          সময়: পরে নির্ধারণ করা হবে<br>
+          ছাত্রসংখ্যা: 25 জন<br>
+          স্থান: Halisahar
+        </p>
+
+        <div class="buttons">
+          <a class="btn" href="tel:0000000000">📞 Call Now</a>
+
+          <a class="btn"
+             href="https://wa.me/910000000000"
+             target="_blank">
+             💬 WhatsApp
+          </a>
+
+          <a class="btn map"
+             href="https://maps.google.com/"
+             target="_blank">
+             📍 View Location
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">যোগাযোগ</h2>
+
+    <div class="card">
+      <p>
+        📞 ফোন: 0000000000
+      </p>
+
+      <p>
+        💬 WhatsApp: 910000000000
+      </p>
+
+      <p>
+        📍 Location: Halisahar
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Arpan Sir Educational Website</p>
+  </footer>
+
+</body>
+</html>
